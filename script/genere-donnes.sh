@@ -15,6 +15,8 @@ function generGraph () {
 }
 
 function clearEnv () {
+    mkdir ../data
+    mkdir ../graph
     touch ../data/finaldata
     touch ../graph/confplot
     echo > ../graph/confplot
